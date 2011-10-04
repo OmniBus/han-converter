@@ -2,11 +2,11 @@
 Converts traditional to simplified Chinese and vice versa.
 
 == Installation
-sudo gem install OmniBus-han-converter --source=http://gems.github.com
+  sudo gem install OmniBus-han-converter --source=http://gems.github.com
 
 OR in Gemfile
 
-gem "han-converter", :git => "git://github.com/OmniBus/han-converter.git"
+  gem "han-converter", :git => "git://github.com/OmniBus/han-converter.git"
 == Usage
 
   >> require 'han-converter'
