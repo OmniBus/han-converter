@@ -1,0 +1,22 @@
+= Han Converter
+Converts traditional to simplified Chinese and vice versa.
+
+== Installation
+sudo gem install OmniBus-han-converter --source=http://gems.github.com
+
+== Usage
+
+  >> require 'han-converter'
+  => true
+  >> "手機上觀看及上載 YouTube 影片".to_simplified
+  => "手机上观看及上载 YouTube 影片"
+
+  >> "手机上观看及上载 YouTube 影片".to_traditional
+  => "手機上觀看及上載 YouTube 影片"
+
+== Origin writer's comment
+It won't be as good as manual translation but it works ok for me. The speed can probably be improved by going down to C land, but I don't have time to do that right now and I probably won't really need the speed for a little while.
+
+-Matt
+
+matt aimonetti [at] gmailDotCom
