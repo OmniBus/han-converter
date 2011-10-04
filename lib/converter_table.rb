@@ -1,3 +1,4 @@
+# encoding: utf-8
 module ConverterTable
   
   @@traditional_to_simplified = {
