@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Matt Aimonetti"]
-  s.cert_chain = ["/Users/matta/.gem/gem-public_cert.pem"]
+  #s.cert_chain = ["/Users/matta/.gem/gem-public_cert.pem"]
   s.date = %q{2008-05-27}
   s.description = %q{Converts traditional / simplified Chinese}
   s.email = ["mattaimonetti@gmail.com"]
@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{han-converter}
   s.rubygems_version = %q{1.1.1}
-  s.signing_key = %q{/Users/matta/.gem/gem-private_key.pem}
+  #s.signing_key = %q{/Users/matta/.gem/gem-private_key.pem}
   s.summary = %q{Converts traditional / simplified Chinese}
 end
