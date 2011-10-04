@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.files = ["History.txt", "License.txt", "Manifest.txt", "README.txt", "Rakefile", "config/hoe.rb", "config/requirements.rb", "lib/han-converter.rb", "lib/converter_table.rb", "lib/han-converter/version.rb", "log/debug.log", "script/destroy", "script/generate", "script/txt2html", "setup.rb", "tasks/deployment.rake", "tasks/environment.rake", "tasks/website.rake", "spec/han-converter_spec.rb", "spec/spec.opts", "spec/spec_helper.rb", "website/index.html", "website/index.txt", "website/javascripts/rounded_corners_lite.inc.js", "website/stylesheets/screen.css", "website/template.rhtml"]
   s.has_rdoc = true
   s.homepage = %q{http://han-converter.rubyforge.org}
-  s.rdoc_options = ["--main", "README.txt"]
+  s.rdoc_options = ["--main", "README.rdoc"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{han-converter}
   s.rubygems_version = %q{1.1.1}
